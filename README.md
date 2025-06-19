@@ -96,3 +96,70 @@ Highlights:
 → A matrix showing individual customers with total amount, recency days, profit, and risk level for quick profiling.
 - Recency Group Heatmap or Segmentation:
 → Recency groups (0–30, 31–60, 61–90+) helped visualize which segments are cooling off and need re-engagement.
+
+# Results 
+### 1. Churn Exposure 
+
+In this project, one of the first things we aimed to understand was how many customers were at risk of no longer buying from StellarMart — a situation known in business as customer churn.
+
+To do this, we analyzed a column called Recency_Days, which tells us how many days have passed since each customer last made a purchase.
+
+We set a simple rule:
+
+If a customer hasn’t made a purchase in the last 30 days, we consider them at risk of churn.
+
+This rule helped us classify customers into three groups:
+- Low Risk: Very recent purchases
+- Medium Risk: Some gap in purchasing behavior
+- High Risk: Long time since last purchase (i.e., likely to leave)
+
+What was found?
+- Out of the total customer base, 1,056 customers were identified as being at risk (either medium or high risk).
+- These customers are responsible for generating a total of €8.71 million in revenue.
+- To put this into perspective, 47.1% of StellarMart’s entire revenue comes from these at-risk customers.
+
+This is a red flag for the business. It means nearly half of StellarMart’s income is coming from customers who are likely to stop buying soon if no action is taken.
+
+It also highlights the urgency to:
+- Engage with these customers
+- Offer them incentives to stay
+- Understand why they might be leaving
+
+### 2. Segment-Level Insights (Expanded Explanation)
+
+After identifying that 47.1% of revenue was at risk, the next question became:
+
+Who exactly are these customers — and what do we know about their behavior?
+
+To answer this, we grouped customers into different risk segments based on how long it had been since their last purchase. This allowed us to analyze the behavior and contribution of each group — High Risk, Medium Risk, and Low Risk.
+
+What we discovered:
+- High Risk Customers
+- 	These are the customers who haven’t made any purchase in a long time.
+- 	They made up about 23.7% of the customer base.
+- 	Surprisingly, they still account for €4.18 million in revenue, or about 22.6% of total revenue.
+- 	This means even though they’ve gone quiet, they’re valuable and shouldn’t be ignored.
+- Medium Risk Customers
+- 	These are customers who are showing signs of slowing down, but haven’t fully churned yet.
+- 	They represent 25.6% of the customer base.
+- 	They contributed €4.52 million in revenue, around 24.5% of the total.
+- Low Risk Customers
+- 	These are the most recent and active buyers.
+- 	They account for the remaining 50.7% of customers and contribute around €9.55 million (52.9%) of revenue.
+
+⸻
+
+Visual Tool Used:
+
+We visualized this insight using a donut chart that shows the percentage of customers in each churn risk level. Another pie chart showed the revenue share by each risk level, helping us see the imbalance between customer activity and revenue contribution.
+
+⸻
+
+Why this matters:
+
+This breakdown shows us that a small number of customers might be bringing in a large chunk of revenue — but they are slipping away.
+
+It also tells us:
+	•	Which groups to focus on first for retention campaigns
+	•	That not all churn risk is equal — high-revenue churners hurt more than low-spending ones
+	•	And that the medium-risk group may still be won back before it’s too late
