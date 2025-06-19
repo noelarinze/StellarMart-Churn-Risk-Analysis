@@ -194,4 +194,95 @@ Why this matters to the business
 
 - Targeting credit card users with incentives (e.g., loyalty programs, discounts) might reduce the high-risk churn in that group.
 
+### 4. Recency Group Heatmap (Customer Engagement Timing)
+What was analyzed:
+In churn analysis, recency refers to how recently a customer made their last purchase. The assumption is simple:
+The longer it has been since the last purchase, the higher the risk of churn.
+To capture this pattern, we grouped customers based on recency intervals (e.g., 0–7 days, 8–14 days, ..., 120+ days). Then we visualized how many customers fell into each group using a heatmap.
+
+What we discovered:
+Most active (low risk) customers had purchased within the last 7 to 14 days.
+As the number of days since last purchase increased, the volume of customers in each group dropped sharply — especially beyond the 30-day mark.
+A notable cluster of high-risk customers appeared in the 45–60 days group, signaling a potential retention intervention point.
+
+Visual Tool Used:
+A heatmap-style bar chart or table was used where:
+- Columns = Recency Groups
+- Rows = Number of Customers
+- Color Gradient = Churn Risk Level or Customer Volume
+This gave a quick visual cue showing where the customer base was most and least engaged.
+
+Why this matter to the business: 
+This helps identify when to intervene. For example, if you notice churn spikes after 30 days of inactivity, your team can schedule targeted campaigns at Day 25.
+Recency trends also help with forecasting churn by identifying time thresholds after which customers tend to disappear.
+
+### 5. Customer Behavior Matrix (Churn Risk vs. Payment Method)
+What we analyzed:
+To understand how payment behaviors relate to churn, we cross-tabulated two variables:
+Churn Risk Level (Low, Medium, High)
+Payment Method (e.g., Credit Card, Bank Transfer, Cash, PayPal)
+This allowed us to see if certain payment methods were more common among high-risk customers — a signal of behavioral risk patterns.
+
+What wad discovered:
+Customers paying with Cash and Bank Transfers showed higher churn risk than those using Credit Cards.
+Low-risk customers were more likely to use digital payment methods like Credit Card and PayPal.
+This suggested that payment method may correlate with digital savviness or engagement — a valuable insight for marketing and product teams.
+
+Visual Tool Used:
+A Matrix Table or Stacked Bar Chart, where:
+Axis/Columns = Churn Risk Levels
+Rows/Legends = Payment Methods
+Values = Count of Customers (or % Share)
+This format helped highlight trends across both dimensions at once.
+
+Why this matters:
+Helps segment churn interventions. For example, if high churn risk is clustered among bank transfer users, targeted outreach or education might be needed for that group.
+It also informs payment optimization strategies — possibly incentivizing card usage or app-based payments, which align with low churn.
+
+### 6. Profit vs. Churn Risk Overlap
+What was analyzed:
+We explored how profitability aligns with churn risk by comparing:
+Customer Profitability (Total Profit per Customer)
+Churn Risk Level (High, Medium, Low)
+This helped us uncover whether the most profitable customers are at risk of leaving — a major red flag for any business.
+
+What was discovered:
+A significant portion of high-risk customers had above-average profit contributions.
+This meant that not all churn is equal — losing a few high-risk, high-profit customers could have a larger financial impact than losing many low-profit ones.
+Some medium-risk customers were also high spenders, representing the next priority for retention efforts.
+
+Visual Tool Used:
+A Grouped Bar Chart or Profit Distribution Table, where:
+- Axis = Churn Risk Level
+- Bars = Average Profit or Total Profit
+This visual made it easy to identify whether high churn risk = high financial risk.
+
+Why this matters:
+- Prioritizes retention strategy by revenue impact, not just churn count.
+- Helps the business focus resources on saving customers that matter most to the bottom line.
+- A great foundation for developing tiered customer retention programs.
+
+# Conclusion
+This Churn Risk Analysis provided a comprehensive view into the customer retention landscape at StellarMart, revealing not just how many customers are at risk, but who they are, how much they contribute, and why they might leave. By combining behavior-based metrics (like Recency and Frequency) with financial indicators (like Total Amount and Profit), we transformed raw transactions into actionable customer insights.
+The insights were brought to life across two complementary dashboards:
+
+Dashboard 1: Churn Overview
+Gave a snapshot of churn segmentation, top spenders, total revenue at risk, and key churn drivers.
+
+Dashboard 2: Customer Behavior & Risk Drivers
+Answered the deeper question: Who is at risk — and why? It broke down risk patterns by payment method, customer group, recency behavior, and profit overlap.
+These tools give business leaders a data-backed view of customer health, enabling smarter decisions around retention investments.
+
+### Key Takeaways
+- 47% of revenue is at risk from High-risk customers — an urgent issue.
+- High-spending customers are present in the churn risk group — not all churn has equal impact.
+- Customer segments (by group and behavior) show clear churn patterns that should guide intervention strategies.
+Recency and frequency are strong indicators of disengagement — low recency, low frequency = high churn risk.
+
+# Recommendations
+- Launch targeted retention campaigns focused on high-risk, high-value customers.
+- Reward recent purchasers in the Medium risk group to maintain engagement.
+- Monitor churn drivers over time, such as specific payment types or customer tiers.
+- Add survey or support ticket integration to identify friction causing customer dropout.
+- Use this dashboard as a living tool, updating it monthly/quarterly to track retention progress and refine strategies.
 
