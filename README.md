@@ -125,7 +125,7 @@ It also highlights the urgency to:
 - Offer them incentives to stay
 - Understand why they might be leaving
 
-### 2. Segment-Level Insights (Expanded Explanation)
+### 2. Segment-Level Insights
 
 After identifying that 47.1% of revenue was at risk, the next question became:
 
@@ -134,16 +134,16 @@ Who exactly are these customers — and what do we know about their behavior?
 To answer this, we grouped customers into different risk segments based on how long it had been since their last purchase. This allowed us to analyze the behavior and contribution of each group — High Risk, Medium Risk, and Low Risk.
 
 What we discovered:
-- High Risk Customers
+- High Risk Customers: 
   These are the customers who haven’t made any purchase in a long time.
   They made up about 23.7% of the customer base.
   Surprisingly, they still account for €4.18 million in revenue, or about 22.6% of total revenue.
   This means even though they’ve gone quiet, they’re valuable and shouldn’t be ignored.
-- Medium Risk Customers
+- Medium Risk Customers: 
   These are customers who are showing signs of slowing down, but haven’t fully churned yet.
   They represent 25.6% of the customer base.
   They contributed €4.52 million in revenue, around 24.5% of the total.
-- Low Risk Customers
+- Low Risk Customers: 
   These are the most recent and active buyers.
   They account for the remaining 50.7% of customers and contribute around €9.55 million (52.9%) of revenue.
 
@@ -152,13 +152,10 @@ Visual Tool Used:
 
 We visualized this insight using a donut chart that shows the percentage of customers in each churn risk level. Another pie chart showed the revenue share by each risk level, helping us see the imbalance between customer activity and revenue contribution.
 
-⸻
-
-Why this matters:
 
 This breakdown shows us that a small number of customers might be bringing in a large chunk of revenue — but they are slipping away.
 
 It also tells us:
-	•	Which groups to focus on first for retention campaigns
-	•	That not all churn risk is equal — high-revenue churners hurt more than low-spending ones
-	•	And that the medium-risk group may still be won back before it’s too late
+- Which groups to focus on first for retention campaigns
+- That not all churn risk is equal — high-revenue churners hurt more than low-spending ones
+- And that the medium-risk group may still be won back before it’s too late
