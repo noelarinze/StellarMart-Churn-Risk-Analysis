@@ -1,5 +1,5 @@
 # Table of Content
-	•	Project Overview (https://github.com/noelarinze/StellarMart-Churn-Risk-Analysis/edit/main/README.md) 
+	•	Project Overview (https://github.com/noelarinze/StellarMart-Churn-Risk-Analysis/edit/main/README.md#Project-Overview)  
 	•	Data Source
 	•	Tools
 	•	Exploratory Data Analysis
