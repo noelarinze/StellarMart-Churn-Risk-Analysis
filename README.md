@@ -135,19 +135,18 @@ To answer this, we grouped customers into different risk segments based on how l
 
 What we discovered:
 - High Risk Customers
-- 	These are the customers who haven’t made any purchase in a long time.
-- 	They made up about 23.7% of the customer base.
-- 	Surprisingly, they still account for €4.18 million in revenue, or about 22.6% of total revenue.
-- 	This means even though they’ve gone quiet, they’re valuable and shouldn’t be ignored.
+  These are the customers who haven’t made any purchase in a long time.
+  They made up about 23.7% of the customer base.
+  Surprisingly, they still account for €4.18 million in revenue, or about 22.6% of total revenue.
+  This means even though they’ve gone quiet, they’re valuable and shouldn’t be ignored.
 - Medium Risk Customers
-- 	These are customers who are showing signs of slowing down, but haven’t fully churned yet.
-- 	They represent 25.6% of the customer base.
-- 	They contributed €4.52 million in revenue, around 24.5% of the total.
+  These are customers who are showing signs of slowing down, but haven’t fully churned yet.
+  They represent 25.6% of the customer base.
+  They contributed €4.52 million in revenue, around 24.5% of the total.
 - Low Risk Customers
-- 	These are the most recent and active buyers.
-- 	They account for the remaining 50.7% of customers and contribute around €9.55 million (52.9%) of revenue.
+  These are the most recent and active buyers.
+  They account for the remaining 50.7% of customers and contribute around €9.55 million (52.9%) of revenue.
 
-⸻
 
 Visual Tool Used:
 
