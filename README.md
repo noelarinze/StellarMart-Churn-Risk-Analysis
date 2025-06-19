@@ -159,3 +159,39 @@ It also tells us:
 - Which groups to focus on first for retention campaigns
 - That not all churn risk is equal — high-revenue churners hurt more than low-spending ones
 - And that the medium-risk group may still be won back before it’s too late
+
+### 3. Payment Behaviors by Risk Level (Expanded Explanation)
+Another key insight I uncovered was how payment method influences churn. By analyzing which payment methods are more common among different risk levels, patterns can be spotted in customer behavior that help predict future churn.
+
+What was discovered:
+Credit Card Users:
+
+- These customers were fairly evenly spread across Medium and High risk segments.
+
+- Credit card users are often high-value customers, but their churn risk increases as payment frequency drops.
+
+- The recency gap is more noticeable among credit card users, indicating a lack of engagement with automatic payments.
+
+PayPal Users:
+
+- PayPal customers were predominantly in the Low Risk category, suggesting stronger retention or ease of payment flexibility.
+
+- This could be due to automatic payments or loyalty features associated with PayPal.
+
+Debit Card Users:
+
+- Most debit card users fall into the Medium Risk segment, suggesting moderate engagement, but still some drop-off in activity after a few purchases.
+
+Visual Tool Used:
+A stacked bar chart was used to show the breakdown of churn risk across each payment method.
+
+The chart clearly highlights how credit card users make up a large portion of high-risk customers, while PayPal shows stronger retention.
+
+Why this matters to the business
+- The analysis of payment methods by churn risk helps target specific payment behaviors for retention efforts.
+
+- PayPal users seem to have better retention, so introducing similar payment flexibility for credit card or debit card users might help reduce churn.
+
+- Targeting credit card users with incentives (e.g., loyalty programs, discounts) might reduce the high-risk churn in that group.
+
+
